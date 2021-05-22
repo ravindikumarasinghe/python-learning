@@ -9,7 +9,8 @@ print("{x}Welcome to kiriaththage pension eka{x}\n\n".format(x="*"*10))
 
 # varibale define
 pin = 1234
-balance = 100
+balance = 1000
+error_message = "Try Again"
 
 # get password from user (int value)
 password = int(input("Enter your PIN : "))
@@ -22,7 +23,7 @@ if(password == pin):
 
     # balance
     if(option == 1): 
-        print("Balance : {}".format(balance))
+        print("Current Balance : {}".format(balance))
 
     # deposit    
     elif(option == 2):
@@ -31,13 +32,15 @@ if(password == pin):
         # deposit amount is in range rs.0 and rs.100,000
         if(0 <deposit <= 100000):
             print("deposit amount: {}\n".format(deposit))
+
             balance += deposit  #add deposit amount to deposit
-            print("current balance: {}\n".format(balance))
+
+            print("Current balance: {}\n".format(balance))
 
         elif(deposit > 100000): 
-            print("Amount exceeded. Try Again")
+            print("Amount exceeded.", error_message)
         else:
-            print("invalid input. Try Again")
+            print("invalid input.", error_message)
 
     # withdraw
     elif(option == 3):
@@ -45,14 +48,17 @@ if(password == pin):
 
         # withdraw amount is in range rs.0 and rs.100,000
         if(0 <withdraw <= balance):
+            
             balance -= withdraw #reduce withdraw amout from current balace
-            print("Withdraw amount : {}\n".format(withdraw))
-            print("current balance: {}\n".format(balance))            
-        else: print("invalid input. Try again")
+            
+            print("Withdraw amount : \n", withdraw)
+            print("Current balance: \n", balance)            
+        
+        else: print("invalid input.", error_message)
 else:
-      print("Incorrect PIN. Try Again")
+      print("Incorrect PIN.", error_message)
 
-print("\nThank you")
+print("\n{x}Thank you{x}".format(x="*"*10))
 
 
 
