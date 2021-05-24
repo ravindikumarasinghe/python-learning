@@ -82,3 +82,4 @@ print(name[::]) # print from starting point to end
 print(name[2:]) # print from starting point(here given index) to end
 print(name[::2])   # print from starting point to end 2 by 2 (here, "Rvni" by skipping letters between them)
 print(name[2::2])   # print from starting point to end 2 by 2 (here, "vni" by skipping letters between them)
+print(name[::-1])   # print from last to first, backwards)
