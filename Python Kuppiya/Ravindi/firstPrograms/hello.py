@@ -66,7 +66,7 @@
 # if (marks<35):
 #     print
 
-# get value from array
+# get value from a string
 name = "Ravindi"
 print(name[1]) #print 1st index value {R=0, a=1, v=2,...d=5,i=6 as their indexes, [0] is the index of string "R"}
 print(name[-1]) # print the last letter {R=-7, a=-6, v=-3,...d=-2,i=-1}
@@ -77,3 +77,6 @@ print(name[1:3])    # print string values form 1 to 3rd index as "oh", here 3rd 
 result = name[4]
 print(result)
 
+print(name[::])
+print(name[2:])
+print(name[2::2])
