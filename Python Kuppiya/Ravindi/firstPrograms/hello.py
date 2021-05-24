@@ -31,6 +31,8 @@
 # print(name)
 
 
+
+
 # #simple addition calculator
 # num1 = int(input("Enter 1st number: "))
 # num2 = int(input("Enter 2st number: "))
@@ -59,11 +61,10 @@
 
 
 
-marks = int(input("Enter marks: "))
+# marks = int(input("Enter marks: "))
 
-if (marks<35):
-    print
+# if (marks<35):
+#     print
 
 
-# home work 3
-# print the grade when student enter his marks
+
