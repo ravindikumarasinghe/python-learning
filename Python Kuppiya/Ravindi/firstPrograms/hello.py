@@ -66,6 +66,7 @@
 # if (marks<35):
 #     print
 
+# Slicing
 # get value from a string
 name = "Ravindi"
 print(name[1]) #print 1st index value {R=0, a=1, v=2,...d=5,i=6 as their indexes, [0] is the index of string "R"}
