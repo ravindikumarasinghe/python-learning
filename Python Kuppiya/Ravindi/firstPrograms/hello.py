@@ -84,3 +84,11 @@ print(name[2:]) # print from starting point(here given index) to end
 print(name[::2])   # print from starting point to end 2 by 2 (here, "Rvni" by skipping letters between them)
 print(name[2::2])   # print from starting point to end 2 by 2 (here, "vni" by skipping letters between them)
 print(name[::-1])   # print from last to first, backwards)
+
+
+# simple functions
+word = "          dore fa sola tido          "
+print(word.upper())
+# print(word.lower())
+# print(word.strip())
+# print(word.isalpha)
