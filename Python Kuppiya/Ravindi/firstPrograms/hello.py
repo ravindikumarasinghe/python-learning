@@ -90,5 +90,5 @@ print(name[::-1])   # print from last to first, backwards)
 word = "          dore fa sola tido          "
 print(word.upper())
 print(word.lower())
-# print(word.strip())
+print(word.strip())
 # print(word.isalpha)
