@@ -89,6 +89,6 @@ print(name[::-1])   # print from last to first, backwards)
 # simple functions
 word = "          dore fa sola tido          "
 print(word.upper())
-# print(word.lower())
+print(word.lower())
 # print(word.strip())
 # print(word.isalpha)
